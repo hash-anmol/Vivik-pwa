@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+
+
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    /* Add primary colors as CSS variables if needed, or use Tailwind classes directly */
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      /* Define dark mode colors if needed */
+      --background: 7 7% 6%; /* Example dark background */
+      --foreground: 0 0% 98%; /* Example dark foreground */
+    }
+  }
+
+  body {
+    min-height: 100vh;
+    color: hsl(var(--foreground)); /* Use the CSS variable directly */
+    /* Gradient moved to layout.tsx */
+    /* Font variable applied directly in layout.tsx */
+    /* Ensure font-sans and text-foreground are correctly mapped via layout.tsx and Tailwind config */
+  }
+}
+
+@layer components {
+  .input-field {
+    width: 100%; /* Equivalent to @apply w-full */
+    padding: 0.75rem; /* Equivalent to @apply p-3 */
+    border-radius: 0.5rem; /* Equivalent to @apply rounded-lg */
+    border: 1px solid #e5e7eb; /* Equivalent to @apply border border-gray-200 */
+    transition: all 0.2s; /* Equivalent to @apply transition-all duration-200 */
+    background-color: rgba(255, 255, 255, 0.7); /* Equivalent to @apply bg-white bg-opacity-70 */
+    backdrop-filter: blur(10px); /* Equivalent to @apply backdrop-blur-sm */
+  }
+  .input-field:focus {
+    border-color: #3b82f6; /* Tailwind: border-primary-400 */
+    box-shadow: 0 0 0 2px #60a5fa; /* Tailwind: ring-2 ring-primary-300 */
+    outline: none; /* Tailwind: outline-none */
+  }
+  
+  .btn-primary {
+    display: flex; /* Tailwind: flex */
+    align-items: center; /* Tailwind: items-center */
+    justify-content: center; /* Tailwind: justify-center */
+    gap: 0.5rem; /* Tailwind: gap-2 (8px) */
+    background-color: #2563eb; /* Tailwind: bg-primary-600 */
+    color: #ffffff; /* Tailwind: text-white */
+    font-weight: 500; /* Tailwind: font-medium */
+    padding: 0.75rem 1.5rem; /* Tailwind: py-3 px-6 */
+    border-radius: 0.5rem; /* Tailwind: rounded-lg (8px) */
+    transition: all 200ms ease-in-out; /* Tailwind: transition-all duration-200 */
+    box-shadow: 0px 4px 6px -1px rgba(0,0,0,0.1), 0px 2px 4px -1px rgba(0,0,0,0.06); /* Tailwind: shadow-md */
+  
+  }
+  
+  .btn-primary:hover {
+    background-color: #1d4ed8; /* Tailwind: hover:bg-primary-700 */
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1), 0px 4px 6px -2px rgba(0,0,0,0.05); /* Tailwind: hover:shadow-lg */
+  }
+  
+  .btn-primary:active {
+    background-color: #1e40af; /* Tailwind: active:bg-primary-800 */
+  }
+  
+  .btn-secondary {
+    display: flex; /* Tailwind: flex */
+    align-items: center; /* Tailwind: items-center */
+    justify-content: center; /* Tailwind: justify-center */
+    gap: 0.5rem; /* Tailwind: gap-2 (8px) */
+    background-color: transparent; /* Tailwind: bg-transparent */
+    border-width: 1px; /* Tailwind: border (default width is `border-width` of `1`) */
+    border-color: #2563eb; /* Tailwind border-primary-600*/
+  }
+}
