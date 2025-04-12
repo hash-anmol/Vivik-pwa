@@ -13,6 +13,8 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
+
 export const metadata: Metadata = {
   title: "Vivik - Connect with similar people nearby",
   description: "Connect with people who share your interests and are near you",

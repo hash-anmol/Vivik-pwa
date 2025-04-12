@@ -1,2 +1,1 @@
-# Vivik-pwa
-# Vivik-pwa
+# README VIVIK

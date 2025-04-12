@@ -1,1 +1,1 @@
-# vivik-app
+# README VIVIK
