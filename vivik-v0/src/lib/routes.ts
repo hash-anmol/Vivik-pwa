@@ -9,4 +9,9 @@ export const authRoutes = [
   "/sign-up(.*)",
 ];
 
-export const afterAuthUrl = "/dashboard"; 
+export const protectedRoutes = [
+  "/onboarding/(.*)",
+];
+
+export const afterAuthUrl = "/onboarding/basic-info";
+export const afterSignInUrl = "/dashboard"; 

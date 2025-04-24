@@ -35,7 +35,7 @@ export default function SignUpPage() {
                 footer: 'hidden',
               },
             }}
-            redirectUrl="/onboarding"
+            redirectUrl="/onboarding/basic-info"
           />
         </div>
         
@@ -45,4 +45,4 @@ export default function SignUpPage() {
       </div>
     </div>
   );
-} 
+}
