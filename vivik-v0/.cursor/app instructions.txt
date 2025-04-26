@@ -1,0 +1,31 @@
+I want to create an app through which you can find friends near you who have similar interests as you.
+
+My target audience is gen z In India, urban cities mostly. 
+
+This is the main concept for that:
+
+- Main Screen
+ - Bottom Navigation Bar 
+ with 2 options: - Profile page  - Groups Page
+  
+  the group page would list out the groups that you have joined and it would and on the bottom of the page there would be a big button that says Find My Crew and it would be the main button through which you would match with friends and form groups with them. 
+
+  on clicking the find my crew button you would land on a page which would have various filters :
+   
+- The accepted Distance you want people to be in, used for matching (slider)
+   
+- Button to filter gender: if you're male, you can select 'male only' mode or 'anyone' 
+if You're Female then you can select female only mode or any one 
+    
+- No female-only mode for males, or male-only modes for female this is a friendship app and not a dating app
+    
+- You would also be able to pick group size (3-4 people)
+
+- You would also be able to pick the interests you want people of to be matched with. You can choose multiple interests and like if you choose badminton then it would show people who have at least badminton in their interest.
+
+then there would be a done button on clicking which there would be a beautiful looking animation and an algorithm running in the backend to match you with the people with following filters it would show a beautiful animation with people matching.
+
+After the algorithm matches the compatible people, there would be a button through which you could form a group. Like you could start a group with those 3 or 4 people and it would then appear in your groups page. 
+     
+Inside the group there would be an option to chat and message. 
+

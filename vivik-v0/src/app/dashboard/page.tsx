@@ -74,7 +74,7 @@ export default function Dashboard() {
             
             <div className="bg-white bg-opacity-70 p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-all">
               <h2 className="text-xl font-semibold text-primary-800">Groups</h2>
-              <p className="mt-2 text-gray-600">Chat with the groups you've joined.</p>
+              <p className="mt-2 text-gray-600">Chat with the groups you&apos;ve joined.</p>
             </div>
             
             <div className="bg-white bg-opacity-70 p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-all">
